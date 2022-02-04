@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>EXCELLENCE SOLUTIONS</title>
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo"><img src="images/logo1.jpg" alt=""><h3> EXCELLENCE SOLUTIONS</h3></a>
+        <div class="navToggle" onclick="toggleNav();">
+        </div>
+        <ul class="navigation">
+            <li><a href="#banner" onclick="toggleNav();">Home</a></li>
+            <li><a href="#about" onclick="toggleNav();">About Us</a></li>
+            <li><a href="#services" onclick="toggleNav();">Services</a></li>
+            <li><a href="#projects" onclick="toggleNav();">Projects</a></li>
+            <li><a href="#contact" onclick="toggleNav();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="banner">
+        <div class="content">
+            <h2>EXCELLENCE SOLUTIONS</h2><br>
+            <p>We give you the best</p>
+            <a href="#" class="btn">Our Services</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="title">
+            <h2 class="aboutTitle"><span>WHO </span>WE ARE?</h2><br>
+        </div>
+        <div class="row">
+            <div class="col50">
+                <h3 class="missionTitle">OUR MISSION</h3><br><hr><br>
+                <p>At the core of Excellence Solutions is our approach to research works and data analysis. ES sets the indusrty standard as a leading provider of customer experience research, data analysis for companies wordwide. <br><br> We also do BSc project and MSc research works. We provide customized reasearch solutions for your unique business needs. And if your data isn't working as intended, we provide actionable next steps and solutions.
+                </p>                
+            </div>
+            <div class="col50">
+                <div class="abtImg">
+                    <img src="images/abt.jpg" alt="Aobut Img">
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col50">
+                <h4 class="customerTitle">Our Customers</h4><br><hr><br>
+                <p>We recognize we are in partnership with our customres. We focus on supplying our customers excellence in services and products
+                </p>                
+            </div>
+            <div class="col50">
+                <h4 class="peopleTitle">Our People</h4><br><hr><br>
+                <p>Our employees are at the heart of our business and are central to our ongoing success. We pride ourselves on employing higly qualified and motivated people.
+                </p>  
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="title">
+            <h2 class="aboutTitle">GET TO KNOW <span> WHAT </span>WE ARE ALL ABOUT</h2><br>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/bsc.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>BSc Project Works</h3>
+                    <p>We do project works for undergraduates who are in their finaly years.</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/msc.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>MSc/Mphil Project Works</h3>
+                    <p>We do projects for students offering Masters and PhD Programmes</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/data_ana.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Data Analysis</h3>
+                    <p>We are experts in finding useful data and also analyzing the data</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/research.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Research Work</h3>
+                    <p>We investigate into the study of sources in order to establish facts</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/linear_p.jpg" alt="">
+                </div>
+                <div class="text">
+                    <h3>Linear Programming and Transportation Problems</h3>
+                    <p>We solve problems involving linear programming</p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="imgBx">
+                    <img src="images/p_and_p.jpg" alt="">
+                </div>
+                <div class="text"> 
+                    <h3>PowerPoint Presentation</h3>
+                    <p>We design and make professional powerpoint slides for presentations</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col50">
+                <h4 class="">Why Us</h4><br><hr><br>
+                <p>ES offers research services as well as research solutions and sometimes consulting services based on data obtained from custom research and panel research.
+                </p>                
+            </div>
+            <div class="col50">
+                <h4 class="">What You Get</h4><br><hr><br>
+                <p>The company primarily serves customer goods clients, companies from the service sector and other private agencies.
+                </p>  
+            </div>
+        </div>
+
+        <div class="title">
+            <a href="#" class="btn">LEARN MORE</a>
+        </div>
+        
+    </section>
+
+    <section class="projects" id="projects">
+
+        <div class="title white">
+            <h2 class="aboutTitle">OUR <span> WORKS </span></h2><br>
+        </div>
+
+        <div class="content">
+
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="title">
+            <h2 class="aboutTitle"><span>C</span>ontact Us</h2><br>
+        </div> 
+        <div class="contactForm">
+            <form onsubmit="sendEmail(); reset(); return false">
+                <h3>WE'RE READY. LET'S TALK!</h3>
+                <div class="inputBox">
+                <input  type="text" placeholder="Your Name" id="name">
+                </div>
+                 <div class="inputBox">
+                <input type="text" placeholder="Email address" id="email">
+                    </div>
+                 <div class="inputBox">
+                <textarea placeholder="Message" id="message"></textarea>
+                    </div>
+                 <div class="inputBox">
+                <button type="submit">SEND MESSAGE</button>
+                    </div>
+            </form>
+        </div>
+    </section>
+
+    <div class="copyrightText">
+        <p>Copyright 2021 <a href="#"> Excellence Solutions. </a> All rights reserved</p>
+    </div>
+
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header');
+            header.classList.toggle("sticky", window.scrollY > 0) 
+        })
+
+        function toggleNav() {
+            const navToggle = document.querySelector('.navToggle');
+            const navigation = document.querySelector('.navigation');
+            navToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script>
+              function sendEmail() {
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "ewuraadwoa24@gmail.com",
+                Password : "NaNaYaa!1",
+                To : "ewuraadwoa24@gmail.com",
+                From : document.getElementById("email").value,
+                Subject : "Response from Excellence Solutions Website",
+                Body : "This is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+</body>
+</html>
