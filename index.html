@@ -210,9 +210,11 @@
                 To : "excellencesolutions23@gmail.com",
                 From : document.getElementById("email").value,
                 Subject : "Response from Excellence Solutions Website",
-                Body : "This is the body"
+                Body : "Name: " + document.getElementById("name").value + 
+                "<br> Email: " + document.getElementById("email").value + 
+                "<br> Message: " + document.getElementById("message").value
             }).then(
-                message => alert(message)
+                message => alert("Thanks for the response. You would receive a reply soon.")
             );
         }
     </script>
